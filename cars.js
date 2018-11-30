@@ -6,3 +6,17 @@
 // second make delete
 // third make create
 // forth make update
+
+import react from 'react';
+
+export default class CarsInfo extends React.Component{
+    constructor(){
+        super()
+        this.state = {
+            color: "",
+            make: "",
+            model: "",
+        }
+    }
+    
+}
